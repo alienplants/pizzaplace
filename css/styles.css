@@ -1,0 +1,106 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+body {
+  background-color: #993333;
+}
+
+.stuff {
+    text-align: center;
+}
+
+.header {font-family: "fabulosa", sans-serif; }
+h1 {font-family: "fabulosa", sans-serif;
+color:#660033;
+text-align: center;}
+h2 {font-family: "fabulosa", sans-serif;
+    text-align: center;
+color:#660033;}
+h3 {font-family: "fabulosa", sans-serif;
+    text-align: center;
+color: #993333}
+h4{font-family: "fabulosa", sans-serif;
+    text-align: center;
+color: #993333}
+.item-price{
+    text-align: right;
+    color: #cccc66;
+}
+
+.address {
+font-family: "myriad-pro", sans-serif;
+color: white;
+}
+
+
+
+
+.history{
+    text-align: center;
+}
+.Pizzas{
+     text-align: center;
+     margin: 20px 20px
+}
+.salad{
+    text-align: center;
+}
+.Menu{
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 1fr;
+    height: 1 fr;
+}
+p {
+    font-family: "myriad-pro", sans-serif;
+    font-style: normal;
+    margin: 20px 20px;
+    color: #996666;
+
+}
+
+.item-name {
+    font-family: "fabulosa", sans-serif;
+    color:#660033;
+}
+
+img { 
+    max-width: 100%;
+}
+
+.menu
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.box {
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 1fr;
+  height: 1 fr;
+  margin: 20px 20px;
+
+}
+
+.green
+{
+  border-radius: 10px;
+  background-color: #cccc66;
+  width: 1fr;
+  height: 1 fr;
+  margin: 20px 20px;
+
+}
+
+@media screen and (min-width: 700px) {
+    .menu {
+    grid-template-columns: 1fr 1fr 1fr;
+}
